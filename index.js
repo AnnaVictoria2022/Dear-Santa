@@ -13,7 +13,7 @@ const nameLine = document.querySelector('.myNameIs');
 let myName = prompt('What is your name?');
 //nameLine.classList.add('nameStyle');
 nameLine.textContent = ( myName + ',');
-console.log(myName);
+
 
 const inputField = document.querySelector('.inputField');
 const button = document.querySelector('.btn');
